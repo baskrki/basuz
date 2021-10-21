@@ -81,4 +81,9 @@ body{
         height: auto;
         padding-left: 12px;
     }    
+    .container{
+        overflow-x: hidden;
+        display: block;
+        width: 100%;
+    }
 }
