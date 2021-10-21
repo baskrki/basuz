@@ -84,6 +84,6 @@ body{
     .container{
         overflow-x: hidden;
         display: block;
-        width: 100%;
+        width: auto;
     }
 }
