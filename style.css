@@ -82,6 +82,7 @@ nav ul a{
 }
 
 .profile-img{
+    display: block;
     position: relative;
     width: 80%;
     height: 80%;
@@ -106,4 +107,17 @@ nav ul a{
 .profile-img:hover{
     transform: translate(-19px, -19px);
     cursor: pointer;
+}
+
+@media only screen and (max-width:700px) {
+    
+    .col-1 h1{
+        margin-top: 100px;
+        font-size: 40px;
+        width: 100%;
+    }
+    .profile-img{
+        display: none;
+    }
+
 }
