@@ -67,6 +67,25 @@ body{
     -webkit-transition: transform 250ms;
     transition: transform 250ms;
 }
+.text a{
+    font-weight: 200px;
+    color: #149DDD;
+    text-decoration: none;
+}
+.text p a{
+    color: orange;
+}
+
+.text h3{
+    font-size: 40px;
+    padding: 20px 20px;
+    color: #fff;
+}
+.text p{
+    font-size: 20px;
+    margin-bottom: 200px;
+    padding: 1px 30px;
+}
 
 @media only screen and (max-width:700px) {
     .lanIcon{
